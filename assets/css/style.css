@@ -410,12 +410,14 @@ section {
   font-weight: 500;
   font-size: 34px;
   color: #2c4964;
+  padding: 0px 20px;
 }
 .about .content p {
   margin-bottom: 0;
+  padding: 0px 20px;
 }
 .about .content .count-box {
-  padding: 20px 0;
+  padding: 20px 20px;
   width: 100%;
 }
 .about .content .count-box i {
@@ -747,6 +749,16 @@ section {
   opacity: 1;
   bottom: calc(50% - 50px);
 }
+.more_pro_btn a{ 
+      background: #d43076;
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 50px;
+      display: table;
+      margin: 0 auto;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -898,7 +910,7 @@ section {
   color: #3c6387;
 }
 .contact .social-links {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .contact .social-links a {
   font-size: 18px;
@@ -988,6 +1000,13 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #dd5a92;
 }
+@media only screen and (max-width:400px){
+
+  .php-email-form{
+    padding-top: 30px;
+  }
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
